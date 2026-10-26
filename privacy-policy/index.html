@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Immanuel 隐私政策 · Privacy Policy</title>
+<style>
+body{font:16px/1.7 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;color:#222;background:#fff;margin:0}main{max-width:800px;margin:auto;padding:24px 20px 64px}h1{font-size:1.7rem}h2{font-size:1.2rem;margin-top:2em}a{color:#245b9c}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}footer{margin-top:3em;border-top:1px solid #ddd;padding-top:1em}
+</style>
+</head>
+<body>
+<main>
+<nav aria-label="页面导航"><a href="../">Immanuel</a> · <a href="#zh">中文</a> · <a href="#en">English</a> · <a href="../terms-of-service/">服务条款 / Terms</a></nav>
+<section id="zh" lang="zh-Hans">
+<h1>Immanuel 隐私政策</h1>
+<p>运营主体：SoulLogic AI LLC。政策地址：<a href="https://immanuel.chat/privacy-policy/">immanuel.chat/privacy-policy/</a>。</p>
+<h2>1. 范围与用途</h2>
+<p>本政策说明面向美国用户的 Immanuel iOS 应用及后端如何处理信息，用于登录与账户管理、AI 对话和附件理解、圣经阅读、记忆功能、额度与存量订阅核验、防滥用、使用统计及故障诊断。Apple、Google 等第三方服务还受各自政策约束。</p>
+<h2>2. 处理的信息</h2>
+<table>
+<tr><th scope="col">类别</th><th scope="col">内容及处理方式</th></tr>
+<tr><td>账号与登录</td><td>Apple、Google 或邮箱密码登录涉及用户标识、邮箱（Apple 可能提供隐藏邮箱）及登录凭证。Firebase Authentication 处理账户；邮箱密码登录的邮箱和密码交给该服务处理。</td></tr>
+<tr><td>聊天与附件</td><td>包括你发送的文字、图片、文档和 AI 回复。聊天记录和附件原件保存在设备上；发送消息时，对话历史与提示词发往后端并转交模型提供方。图片和文档也会发往后端以提取描述或文字，并可能交给模型处理。这不是仅在设备上处理的私密对话。</td></tr>
+<tr><td>记忆与偏好</td><td>对话生成的记忆卡片、摘要，以及称呼、伙伴名、圣经阅读位置与设置保存在本机。用于 AI 回复的对话上下文会发送至后端及模型提供方；本地保存不代表其相关内容绝不离开设备。</td></tr>
+<tr><td>用量、额度与订阅</td><td>后端按账号保存每日、每周用量、免费额度消耗及订阅状态；为核验存量 App Store 订阅，应用将 Apple 收据发送到后端。</td></tr>
+<tr><td>设备、网络与日志</td><td>每次成功聊天，后端结构化日志包括账号标识、IP 地址、iOS 供应商设备标识、套餐、用量、费用及所用模型。</td></tr>
+<tr><td>使用统计</td><td>Firebase Analytics 记录打开应用、登录完成、首条消息、浏览或搜索圣经、额度用尽、点击订阅等事件。应用自定义的这些事件不附带消息正文、经文引用、邮箱、账号标识、IP、设备标识或搜索词；这不表示 Firebase 不自动收集数据。</td></tr>
+<tr><td>崩溃与错误</td><td>Firebase Crashlytics 用于崩溃和错误诊断；应用不主动附带消息正文、邮箱、账号标识或查询词，也不设置用户标识。这不表示该服务没有自己的自动收集。</td></tr>
+</table>
+<p>相机和相册用于你附上的图片。应用内目前不收集年龄、出生日期或监护人信息，也不核验年龄。请勿在对话和附件中提供不希望由第三方处理的信息；宗教信仰、健康及家庭情况等内容可能具有敏感性。</p>
+<h2>3. 第三方处理、地区与模型改进</h2>
+<p>后端运行在 Google Cloud。Google 的 Firebase Authentication、App Check 和 Google 登录处理登录凭证、应用与设备证明以鉴权及防滥用；Apple 处理登录凭证和存量订阅收据核验；Google Gemini / Vertex AI 处理对话历史、提示词、图片或文档以生成回复；Firebase Analytics 和 Crashlytics 处理上表中的诊断和使用信息。</p>
+<p>目前尚无法确认全部实际启用的其他模型或错误监控提供方、各方处理与存放地区，以及各类数据的具体保留期限。对话会经后端转交第三方处理；不能据此认为只有上述已列服务会接收数据。对于聊天内容是否由我们或第三方用于模型改进、第三方保留和训练条款，目前不能作出已核实的完整说明，也不作“不用于训练”或“零保留”的保证。</p>
+<h2>4. 保留与删除</h2>
+<ul>
+<li>聊天、附件、记忆、阅读位置和设置在设备上保存；后端保存账号用量、额度、订阅状态及相关日志。没有可在此承诺的统一保留天数。</li>
+<li>在设置中选择“删除账户”并确认后，应用请求后端删除 Firebase 账号、该账号的用量、额度、订阅状态及相关缓存。后端成功后，应用退出登录并清除本机聊天、记忆、附件、阅读位置和伙伴名等数据。删除不可恢复。</li>
+<li>设置中可单独删除长期记忆；删除单条消息也会清除与该消息关联的记忆卡片。</li>
+<li><strong>删除单条消息或单个会话不会清除相应附件文件。</strong>这些附件会保留到删除账户或切换账号时清理。</li>
+<li>网络中断会导致删号请求失败，此时本机数据不清除，应用提示错误；本机文件清理失败会在下次登录时重试。</li>
+<li>上述后端清理不等于删除 Analytics、Crashlytics、云日志和模型提供方中的全部记录；它们按各自机制处理。我们不能保证逐项即时删除或撤回已经发给模型提供方的内容。</li>
+<li><strong>删除 Immanuel 账户不等于取消 Apple 订阅。</strong>请在 Apple ID 的订阅设置中自行取消存量订阅；我们不能代为取消，退款须向 Apple 申请。</li>
+</ul>
+<h2>5. 选择、权利与联系</h2>
+<p>你可以使用上述账户和记忆删除功能，并在 iOS 设置中关闭相机或相册权限。适用法律可能赋予访问、更正、删除、获取副本等权利；应用内删号并不替代完整的隐私权请求流程。本页目前不能提供已核实可用的公众隐私请求联系人或完整的美国各州权利办理流程。</p>
+<p>使用者须年满 13 岁或达到所在地更高的最低同意年龄；未满 18 岁须有监护人许可。这一使用要求不等于已完成年龄核验或儿童隐私合规。</p>
+<h2>6. 安全与政策变更</h2>
+<p>应用请求附带 Firebase 身份令牌及 App Check 令牌进行校验；没有系统绝对安全。本页未承诺特定保留期、变更通知渠道或提前通知期限；更新不免除适用法律要求。</p>
+</section>
+<hr>
+<section id="en" lang="en">
+<h1>Immanuel Privacy Policy</h1>
+<p>Operator: SoulLogic AI LLC. Policy address: <a href="https://immanuel.chat/privacy-policy/">immanuel.chat/privacy-policy/</a>.</p>
+<h2>1. Scope and purposes</h2>
+<p>This policy describes information handling by the Immanuel iOS app and backend, offered to U.S. users, for sign-in and account management, AI conversations and attachment understanding, Bible reading, memory features, allowance and existing subscription verification, abuse prevention, usage statistics and diagnostics. Third-party services, including Apple and Google, also have their own policies.</p>
+<h2>2. Information processed</h2>
+<table>
+<tr><th scope="col">Category</th><th scope="col">Information and handling</th></tr>
+<tr><td>Account and sign-in</td><td>Apple, Google or email-and-password sign-in involves user identifiers, email addresses (possibly an Apple private relay address) and credentials. Firebase Authentication handles accounts, including the email and password used for email sign-in.</td></tr>
+<tr><td>Chats and attachments</td><td>This includes your text, images, documents and AI replies. Chat history and original attachments are stored on your device. When you send a message, conversation history and prompts go to our backend and on to model providers. Images and documents also go to the backend for description or text extraction and may be processed by models. These are not private conversations processed only on your device.</td></tr>
+<tr><td>Memory and preferences</td><td>Conversation-derived memory cards and summaries, your chosen name, companion name, Bible reading position and settings are stored locally. Conversation context used for AI replies is sent to the backend and model providers; local storage does not mean related content never leaves the device.</td></tr>
+<tr><td>Usage, allowance and subscriptions</td><td>The backend stores daily and weekly usage, free allowance consumed and subscription status against your account. The App sends Apple receipts to the backend to verify existing App Store subscriptions.</td></tr>
+<tr><td>Device, network and logs</td><td>For each successful chat, structured backend logs include the account identifier, IP address, iOS vendor device identifier, plan, usage, cost and model used.</td></tr>
+<tr><td>Usage statistics</td><td>Firebase Analytics records events such as app opening, completed sign-in, a first message, Bible browsing or searching, allowance exhaustion and subscribe taps. The App's custom events do not attach message text, scripture references, email, account identifiers, IP addresses, device identifiers or search terms. This does not mean Firebase collects no data automatically.</td></tr>
+<tr><td>Crashes and errors</td><td>Firebase Crashlytics provides crash and error diagnostics. The App does not deliberately attach message text, email, account identifiers or queries, and does not set a user identifier. This does not rule out the service's own automatic collection.</td></tr>
+</table>
+<p>Camera and photo-library access is used for images you attach. The App does not currently collect age, date of birth or guardian information, or verify age. Do not put information in chats or attachments that you do not want third parties to process; religious beliefs, health and family details may be sensitive.</p>
+<h2>3. Third parties, locations and model improvement</h2>
+<p>The backend runs on Google Cloud. Google's Firebase Authentication, App Check and Google Sign-In process credentials and app and device attestations for authentication and abuse prevention. Apple processes sign-in credentials and existing subscription receipt verification. Google Gemini / Vertex AI processes conversation history, prompts, images or documents to generate replies. Firebase Analytics and Crashlytics process the usage and diagnostic information above.</p>
+<p>We cannot currently confirm the complete list of other active model or error-monitoring providers, their processing and storage locations, or specific retention periods for each data category. Conversations pass through the backend to third parties; do not assume that only the named services receive data. We cannot currently give a complete, verified account of whether we or third parties use chat content for model improvement, or of third-party retention and training terms. We do not promise “no training” or “zero retention.”</p>
+<h2>4. Retention and deletion</h2>
+<ul>
+<li>Chats, attachments, memory, reading position and settings are stored on your device. The backend stores account usage, allowance, subscription status and related logs. We cannot promise a single retention period here.</li>
+<li>After you confirm Settings → Delete Account, the App requests deletion of the Firebase account and its backend usage, allowance, subscription state and related cache records. Once the backend succeeds, the App signs you out and clears local chats, memory, attachments, reading position and companion name, among other account data. Deletion cannot be undone.</li>
+<li>Settings has a separate long-term memory deletion control. Deleting a single message also removes memory cards linked to that message.</li>
+<li><strong>Deleting a message or conversation does not remove its attachment files.</strong> Those files remain until cleanup on account deletion or account switching.</li>
+<li>If the network is unavailable, account deletion fails, local data is not cleared and the App shows an error. Failed local file cleanup is retried at the next sign-in.</li>
+<li>This backend cleanup does not delete all records in Analytics, Crashlytics, cloud logs or model providers; each system follows its own mechanisms. We cannot guarantee immediate item-by-item deletion or withdrawal of content already sent to model providers.</li>
+<li><strong>Deleting an Immanuel account does not cancel an Apple subscription.</strong> Cancel existing subscriptions in your Apple ID subscription settings. We cannot cancel them for you; request refunds from Apple.</li>
+</ul>
+<h2>5. Choices, rights and contact</h2>
+<p>You can use the account and memory deletion controls above and disable camera or photo-library access in iOS Settings. Applicable law may provide rights to access, correct, delete or obtain a copy of information. In-app account deletion is not a complete privacy-rights request process. This page cannot currently provide a verified public privacy-request contact or a complete U.S. state rights request process.</p>
+<p>Users must be at least 13, or the higher minimum age of consent where they live; users under 18 need a parent or guardian's permission. This use requirement does not establish age verification or compliance with children's privacy requirements.</p>
+<h2>6. Security and changes</h2>
+<p>App requests carry Firebase identity and App Check tokens for verification. No system is perfectly secure. This page does not promise a specific retention period, change-notification channel or advance-notice period; updates do not override applicable legal requirements.</p>
+</section>
+<footer><a href="../terms-of-service/">服务条款 / Terms of Service</a> · <a href="../">Immanuel</a></footer>
+</main>
+</body>
+</html>
