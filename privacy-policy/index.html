@@ -13,9 +13,12 @@ body{font:16px/1.7 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-
 <main>
 <nav aria-label="页面导航"><a href="../">Immanuel</a> · <a href="#zh">中文</a> · <a href="#en">English</a> · <a href="../terms-of-service/">服务条款 / Terms</a></nav>
 <section id="zh" lang="zh-Hans">
-<h1>Immanuel 隐私政策</h1>
+<h1>Immanuel 隐私政策（候选文稿）</h1>
+<p>本页尚未经法律放行，未作为正式生效文本。已知公司名称为 SoulLogic AI LLC；完整正式披露待 Owner 确定，并非公司名称未知。</p>
+<ul id="legal-disclosure-zh"><li>法律主体正式名称（完整正式披露）：[待 Owner 确定]</li><li>公众地址：[待 Owner 确定]</li><li>适用法律：[待 Owner 确定]</li><li>生效日：[待 Owner 确定]</li></ul>
 <p>运营主体：SoulLogic AI LLC。政策地址：<a href="https://immanuel.chat/privacy-policy/">immanuel.chat/privacy-policy/</a>。</p>
 <h2>1. 范围与用途</h2>
+<p>下述 App 与后端处理说明基于已有源码材料，不代表实际发行版本已通过验证。实际发行 App 与后端的版本身份尚未核实；当前发行功能、权限与上传字段的完整清单未提供，音频/麦克风、可能的手机号入口、记忆上下文上传与云端保存的实际范围尚未核实。</p>
 <p>本政策说明面向美国用户的 Immanuel iOS 应用及后端如何处理信息，用于登录与账户管理、AI 对话和附件理解、圣经阅读、记忆功能、额度与存量订阅核验、防滥用、使用统计及故障诊断。Apple、Google 等第三方服务还受各自政策约束。</p>
 <h2>2. 处理的信息</h2>
 <table>
@@ -31,8 +34,9 @@ body{font:16px/1.7 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-
 <p>相机和相册用于你附上的图片。应用内目前不收集年龄、出生日期或监护人信息，也不核验年龄。请勿在对话和附件中提供不希望由第三方处理的信息；宗教信仰、健康及家庭情况等内容可能具有敏感性。</p>
 <h2>3. 第三方处理、地区与模型改进</h2>
 <p>后端运行在 Google Cloud。Google 的 Firebase Authentication、App Check 和 Google 登录处理登录凭证、应用与设备证明以鉴权及防滥用；Apple 处理登录凭证和存量订阅收据核验；Google Gemini / Vertex AI 处理对话历史、提示词、图片或文档以生成回复；Firebase Analytics 和 Crashlytics 处理上表中的诊断和使用信息。</p>
-<p>目前尚无法确认全部实际启用的其他模型或错误监控提供方、各方处理与存放地区，以及各类数据的具体保留期限。对话会经后端转交第三方处理；不能据此认为只有上述已列服务会接收数据。对于聊天内容是否由我们或第三方用于模型改进、第三方保留和训练条款，目前不能作出已核实的完整说明，也不作“不用于训练”或“零保留”的保证。</p>
+<p>完整实际处理方清单、处理与存放地区、各类数据的保留期限或判定标准及删除机制未提供，尚未核实。对话会经后端转交第三方处理；不能据此认为只有上述已列服务会接收数据。对于聊天内容是否由我们或第三方用于模型改进、第三方保留和训练条款，目前不能作出已核实的完整说明，也不作“不用于训练”或“零保留”的保证。</p>
 <h2>4. 保留与删除</h2>
+<p>下述删除流程为已有源码所述行为，不是发行验收结果。附件残留问题仍未解决，修复尚未实施。实际发行版本的删除失败与重试运行证据未提供、尚未核实；在途修复不能视为发行通过。</p>
 <ul>
 <li>聊天、附件、记忆、阅读位置和设置在设备上保存；后端保存账号用量、额度、订阅状态及相关日志。没有可在此承诺的统一保留天数。</li>
 <li>在设置中选择“删除账户”并确认后，应用请求后端删除 Firebase 账号、该账号的用量、额度、订阅状态及相关缓存。后端成功后，应用退出登录并清除本机聊天、记忆、附件、阅读位置和伙伴名等数据。删除不可恢复。</li>
@@ -43,16 +47,21 @@ body{font:16px/1.7 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-
 <li><strong>删除 Immanuel 账户不等于取消 Apple 订阅。</strong>请在 Apple ID 的订阅设置中自行取消存量订阅；我们不能代为取消，退款须向 Apple 申请。</li>
 </ul>
 <h2>5. 选择、权利与联系</h2>
-<p>你可以使用上述账户和记忆删除功能，并在 iOS 设置中关闭相机或相册权限。适用法律可能赋予访问、更正、删除、获取副本等权利；应用内删号并不替代完整的隐私权请求流程。本页目前不能提供已核实可用的公众隐私请求联系人或完整的美国各州权利办理流程。</p>
+<p>你可以使用上述账户和记忆删除功能，并在 iOS 设置中关闭相机或相册权限。适用法律可能赋予访问、更正、删除、获取副本等权利；应用内删号并不替代完整的隐私权请求流程。公众隐私请求邮箱：<a href="mailto:soullogic@agentmail.to">soullogic@agentmail.to</a>，负责人：Immanuel VP。我们承诺在收到请求后 30 天内答复，不是承诺在 30 天内完成所有请求。为保护账户和数据，我们可能需要安全核验身份；请勿发送密码、付款秘密或其他登录秘密。完整的美国各州权利办理流程、替补安排及运行验证证据未提供、尚未核实。</p>
 <p>使用者须年满 13 岁或达到所在地更高的最低同意年龄；未满 18 岁须有监护人许可。这一使用要求不等于已完成年龄核验或儿童隐私合规。</p>
 <h2>6. 安全与政策变更</h2>
 <p>应用请求附带 Firebase 身份令牌及 App Check 令牌进行校验；没有系统绝对安全。本页未承诺特定保留期、变更通知渠道或提前通知期限；更新不免除适用法律要求。</p>
+<h2>7. 本网站</h2>
+<p>本站实际托管商、访问日志的数据类别、用途及保留安排未提供、尚未核实；上述 App 处理说明不替代网站处理事实。noindex 仅为搜索索引提示，不是访问控制。</p>
 </section>
 <hr>
 <section id="en" lang="en">
-<h1>Immanuel Privacy Policy</h1>
+<h1>Immanuel Privacy Policy (candidate draft)</h1>
+<p>This page has not received legal clearance and is not an effective legal text. The known company name is SoulLogic AI LLC; its complete formal disclosure awaits the Owner's decision, rather than the company name being unknown.</p>
+<ul id="legal-disclosure-en"><li>Formal legal entity name (complete formal disclosure): [Pending Owner decision]</li><li>Public address: [Pending Owner decision]</li><li>Governing law: [Pending Owner decision]</li><li>Effective date: [Pending Owner decision]</li></ul>
 <p>Operator: SoulLogic AI LLC. Policy address: <a href="https://immanuel.chat/privacy-policy/">immanuel.chat/privacy-policy/</a>.</p>
 <h2>1. Scope and purposes</h2>
+<p>The App and backend descriptions below are based on existing source materials, not validation of the released versions. The identities of the released App and backend versions have not been verified. A complete list of current released features, permissions and uploaded fields has not been provided; the actual scope of audio/microphone use, any phone-number sign-in, memory-context uploads and cloud storage has not been verified.</p>
 <p>This policy describes information handling by the Immanuel iOS app and backend, offered to U.S. users, for sign-in and account management, AI conversations and attachment understanding, Bible reading, memory features, allowance and existing subscription verification, abuse prevention, usage statistics and diagnostics. Third-party services, including Apple and Google, also have their own policies.</p>
 <h2>2. Information processed</h2>
 <table>
@@ -68,8 +77,9 @@ body{font:16px/1.7 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-
 <p>Camera and photo-library access is used for images you attach. The App does not currently collect age, date of birth or guardian information, or verify age. Do not put information in chats or attachments that you do not want third parties to process; religious beliefs, health and family details may be sensitive.</p>
 <h2>3. Third parties, locations and model improvement</h2>
 <p>The backend runs on Google Cloud. Google's Firebase Authentication, App Check and Google Sign-In process credentials and app and device attestations for authentication and abuse prevention. Apple processes sign-in credentials and existing subscription receipt verification. Google Gemini / Vertex AI processes conversation history, prompts, images or documents to generate replies. Firebase Analytics and Crashlytics process the usage and diagnostic information above.</p>
-<p>We cannot currently confirm the complete list of other active model or error-monitoring providers, their processing and storage locations, or specific retention periods for each data category. Conversations pass through the backend to third parties; do not assume that only the named services receive data. We cannot currently give a complete, verified account of whether we or third parties use chat content for model improvement, or of third-party retention and training terms. We do not promise “no training” or “zero retention.”</p>
+<p>A complete list of actual processors, processing and storage locations, retention periods or criteria and deletion mechanisms has not been provided or verified. Conversations pass through the backend to third parties; do not assume that only the named services receive data. We cannot currently give a complete, verified account of whether we or third parties use chat content for model improvement, or of third-party retention and training terms. We do not promise “no training” or “zero retention.”</p>
 <h2>4. Retention and deletion</h2>
+<p>The deletion flows below describe existing source behavior, not release acceptance results. The attachment-residue issue remains open; the fix has not been implemented. Runtime evidence of deletion failures and retries in the actual release has not been provided or verified; work in progress is not release approval.</p>
 <ul>
 <li>Chats, attachments, memory, reading position and settings are stored on your device. The backend stores account usage, allowance, subscription status and related logs. We cannot promise a single retention period here.</li>
 <li>After you confirm Settings → Delete Account, the App requests deletion of the Firebase account and its backend usage, allowance, subscription state and related cache records. Once the backend succeeds, the App signs you out and clears local chats, memory, attachments, reading position and companion name, among other account data. Deletion cannot be undone.</li>
@@ -80,10 +90,12 @@ body{font:16px/1.7 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-
 <li><strong>Deleting an Immanuel account does not cancel an Apple subscription.</strong> Cancel existing subscriptions in your Apple ID subscription settings. We cannot cancel them for you; request refunds from Apple.</li>
 </ul>
 <h2>5. Choices, rights and contact</h2>
-<p>You can use the account and memory deletion controls above and disable camera or photo-library access in iOS Settings. Applicable law may provide rights to access, correct, delete or obtain a copy of information. In-app account deletion is not a complete privacy-rights request process. This page cannot currently provide a verified public privacy-request contact or a complete U.S. state rights request process.</p>
+<p>You can use the account and memory deletion controls above and disable camera or photo-library access in iOS Settings. Applicable law may provide rights to access, correct, delete or obtain a copy of information. In-app account deletion is not a complete privacy-rights request process. Public privacy requests: <a href="mailto:soullogic@agentmail.to">soullogic@agentmail.to</a>, handled by Immanuel VP. We commit to responding within 30 days of receiving a request, not to completing every request within 30 days. To protect accounts and data, we may need to verify identity securely; do not send passwords, payment secrets or other sign-in secrets. A complete U.S. state rights request process, backup arrangements and operational verification evidence have not been provided or verified.</p>
 <p>Users must be at least 13, or the higher minimum age of consent where they live; users under 18 need a parent or guardian's permission. This use requirement does not establish age verification or compliance with children's privacy requirements.</p>
 <h2>6. Security and changes</h2>
 <p>App requests carry Firebase identity and App Check tokens for verification. No system is perfectly secure. This page does not promise a specific retention period, change-notification channel or advance-notice period; updates do not override applicable legal requirements.</p>
+<h2>7. This website</h2>
+<p>The actual website host and access-log data categories, purposes and retention arrangements have not been provided or verified. The App descriptions above do not establish website processing facts. noindex is only a search-indexing instruction, not access control.</p>
 </section>
 <footer><a href="../terms-of-service/">服务条款 / Terms of Service</a> · <a href="../">Immanuel</a></footer>
 </main>
